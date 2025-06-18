@@ -111,6 +111,8 @@ address {
   line-height: inherit;
 }
 
+
+
 ol,
 ul,
 dl {
@@ -211,9 +213,10 @@ img {
   border-style: none;
 }
 
+
 svg {
-  overflow: hidden;
-  vertical-align: middle;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
 table {
@@ -447,6 +450,8 @@ small,
   font-weight: 400;
 }
 
+
+
 mark,
 .mark {
   padding: 0.2em;
@@ -466,6 +471,7 @@ mark,
 .list-inline-item {
   display: inline-block;
 }
+.
 
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -489,6 +495,18 @@ mark,
 
 .blockquote-footer::before {
   content: "\2014\00A0";
+}
+
+.show-example-btn{
+    padding: 0.9em 2.1875em;
+    border: 0;
+    border-radius: 0.1875em;
+    background-color: #7066e0;
+    box-shadow: none;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 500;
+    white-space: nowrap;
 }
 
 .img-fluid {
